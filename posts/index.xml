@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Unker KennyD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Jan 2020 20:50:45 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 10 Feb 2020 12:57:47 +0800</lastBuildDate>
     
 	<atom:link href="https://www.uncle.la/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mysterious DJI Spark issue</title>
+      <link>https://www.uncle.la/posts/dji-spark-battery-issue/</link>
+      <pubDate>Mon, 10 Feb 2020 12:57:47 +0800</pubDate>
+      
+      <guid>https://www.uncle.la/posts/dji-spark-battery-issue/</guid>
+      <description>Few week ago, my brother-in-law passed me a DJI Spark to play. The unit has not been used for 2 over years so the natural thing to do is to charge all the batteries up before exploring further.
+I left the drone batteries charging while heading out for an errand but a quick test at night indicated they are not charged.. (scratches head and go to bed)
+The mysterious red light This is the time to RTFM&amp;hellip;.</description>
+    </item>
     
     <item>
       <title>Willingness to help</title>
@@ -22,7 +33,7 @@ How long has it been since I said No to helping someone? Ok.. maybe what I reall
     </item>
     
     <item>
-      <title>Hello World1</title>
+      <title>Hello World</title>
       <link>https://www.uncle.la/posts/hello-world/</link>
       <pubDate>Thu, 02 Jan 2020 22:24:48 +0800</pubDate>
       
