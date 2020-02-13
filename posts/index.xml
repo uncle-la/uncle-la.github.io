@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Unker KennyD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Feb 2020 12:57:47 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 11 Feb 2020 20:29:41 +0800</lastBuildDate>
     
 	<atom:link href="https://www.uncle.la/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Registering a Drone in Singapore</title>
+      <link>https://www.uncle.la/posts/registering-drone/</link>
+      <pubDate>Tue, 11 Feb 2020 20:29:41 +0800</pubDate>
+      
+      <guid>https://www.uncle.la/posts/registering-drone/</guid>
+      <description>Registering a Drone in Singapore In Singapore, the regulations requires a drone user to register the unmanned aircraft (UA) when its total weight is above 250g.
+After purchasing a registration label at SingPost online, the next step is to register the UA at CAAS UA Registration. Be sure to stick the label on your UA before registering as a photo will be required.
+There are some other guidelines mentioned on the website so do have a read!</description>
+    </item>
     
     <item>
       <title>Mysterious DJI Spark issue</title>
