@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="en-us">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>Backblaze Backup Mac | Unker KennyD</title>
+
+<meta property='og:title' content='Backblaze Backup Mac - Unker KennyD'>
+<meta property='og:description' content='How often do we think about backing up our data? Our laptop seems to run fine and mobile phones rarely die on us. However, the moment it crashes, we start to panic and wished that:
+ We did a backup We did a backup We did a backup The backup is working  My trusty ol&rsquo; MacBook Pro has served me well since late 2013 and I get complacent when it comes to making sure that all my data are regularly backed up.'>
+<meta property='og:url' content='https://www.uncle.la/posts/backblaze-backup-mac/'>
+<meta property='og:site_name' content='Unker KennyD'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts'><meta property='article:published_time' content='2020-03-09T22:51:00&#43;08:00'/><meta property='article:modified_time' content='2020-03-09T22:51:00&#43;08:00'/><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@kennethlimcp'><meta name='twitter:creator' content='@kennethlimcp'>
+
+
+<link href="https://www.uncle.la/index.xml" rel="alternate" type="application/rss+xml" title="Unker KennyD" />
+
+<link rel="stylesheet" href="/css/style.css"/><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="canonical" href="https://www.uncle.la/posts/backblaze-backup-mac/">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<section class="section">
+  <div class="container">
+    <nav id="nav-main" class="nav">
+      <div id="nav-name" class="nav-left">
+        <a id="nav-anchor" class="nav-item" href="https://www.uncle.la">
+          <h1 id="nav-heading" class="title is-4">Unker KennyD</h1>
+        </a>
+      </div>
+      <div class="nav-right">
+        <nav id="nav-items" class="nav-item level is-mobile"><a class="level-item" aria-label="github" href='https://github.com/kennethlimcp'
+            target='_blank' rel='noopener'>
+            <span class="icon">
+              <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+    
+  </svg></i>
+            </span>
+          </a><a class="level-item" aria-label="linkedin" href='https://linkedin.com/in/kennethlimcp'
+            target='_blank' rel='noopener'>
+            <span class="icon">
+              <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path stroke-width="1.8" d="m5.839218,4.101561c0,1.211972 -0.974141,2.194011 -2.176459,2.194011s-2.176459,-0.982039 -2.176459,-2.194011c0,-1.211094 0.974141,-2.194011 2.176459,-2.194011s2.176459,0.982917 2.176459,2.194011zm0.017552,3.94922l-4.388022,0l0,14.04167l4.388022,0l0,-14.04167zm7.005038,0l-4.359939,0l0,14.04167l4.360816,0l0,-7.370999c0,-4.098413 5.291077,-4.433657 5.291077,0l0,7.370999l4.377491,0l0,-8.89101c0,-6.915523 -7.829986,-6.66365 -9.669445,-3.259423l0,-1.891237z"/>
+    
+  </svg></i>
+            </span>
+          </a><a class="level-item" aria-label="twitter" href='https://twitter.com/kennethlimcp'
+            target='_blank' rel='noopener'>
+            <span class="icon">
+              <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+    
+  </svg></i>
+            </span>
+          </a></nav>
+      </div>
+    </nav>
+
+    <nav class="nav">
+      
+
+      
+    </nav>
+
+  </div>
+  <script src="/js/navicon-shift.js"></script>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="subtitle tags is-6 is-pulled-right">
+      
+    </div>
+    <h2 class="subtitle is-6">March 9, 2020</h2>
+    <h1 class="title">Backblaze Backup Mac</h1>
+    
+    <div class="content">
+      <p>How often do we think about backing up our data? Our laptop seems to run fine and mobile phones rarely die on us. However, the moment it crashes, we start to panic and wished that:</p>
+<ol>
+<li>We did a backup</li>
+<li>We did a backup</li>
+<li>We did a backup</li>
+<li>The backup is working</li>
+</ol>
+<p>My trusty ol&rsquo; MacBook Pro has served me well since late 2013 and I get complacent when it comes to making sure that all my data are regularly backed up. What can go wrong, right? The laptop is functioning well and using a Solid State Drive (SSD)&hellip;</p>
+<p>Realizing how much a risk I was taking, I decided to buy insurance. After looking around, it seems like <a href="https://www.backblaze.com/">Backblaze</a> suited my needs in terms of <code>Price</code> and <code>Security</code>.</p>
+<p><img src="/img/backblaze-backup/backblaze-passphrase.png" alt="blackblaze-phassphrase"></p>
+<p>On their <a href="https://www.backblaze.com/backup-encryption.html">website</a>, there is an option available for the customer to add a passphrase, which you can think of as a <code>secret code</code> that will further secure your data. Without the <code>passphrase</code> there is no way for someone who steals the data from Backblaze's server to be able to see your content.</p>
+<p>This is really an plus point on top of other security measures such as encrypting your data at rest, transferring them securely between your machine and cloud etc.</p>
+<p>It is always a fine line between security and usabiity so this simple use of a passphrase kind of balance them well.</p>
+<p><img src="/img/backblaze-backup/backblaze-pricing.png" alt="blackblaze-pricing"></p>
+<p>I opted for the yearly option which gives me a savings of USD$12, enough for me to enjoy more Toastbox!</p>
+<p><img src="/img/backblaze-backup/backblaze-download-app.png" alt="blackblaze-download-app"></p>
+<p>Once payment is made, you will be presented with a link to download the Backblaze app. I found the process to be very user friendly as the app will login and get started immediately after installation completes.</p>
+<p><img src="/img/backblaze-backup/backblaze-2fa.png" alt="blackblaze-2fa"></p>
+<p>I strongly recommend setting up <code>Two-Factor Authentication</code> under <a href="https://secure.backblaze.com/account_settings.htm">Account Settings</a> to keep your account well secured and protected against weak passwords. The last thing you want happening is your data being download through the Backblaze web portal.</p>
+<p>One pro tip though! If you have <code>passphrase</code> enabled, an attacker is still unable to access/download your files. So set it!</p>
+<p><img src="/img/backblaze-backup/backblaze-app-passphrase.png" alt="blackblaze-app-passphrase"></p>
+<p>In the app, under <code>Settings --&gt; Security</code>, you will be able to add a <code>passphrase</code> of maximum 50 characters. The more the merry so I would recommend creating a strong one that you can remember or a 50 characters one if you have a password manager to store it securely (not on paper please).</p>
+<p><img src="/img/backblaze-backup/backblaze-backup-progress.png" alt="blackblaze-backup-progress"></p>
+<p>One thing really confused about the app is the backup progress. It always show <code>143,545MB</code> for my Macbook which is very very little. My data is using at least 50GB of storage so that made me very concerned.</p>
+<p>After letting the backup run overnight, it seems like the web portal reported the correct amount of data backup while the app seems to be forever confused.</p>
+<p>I hope that this article showed you how easy it is to backup your laptop data regularly!</p>
+<p>If you are keen to use Backblaze, this referral link <a href="https://secure.backblaze.com/r/001gqj">https://secure.backblaze.com/r/001gqj</a> which gives you one free month of subscription!</p>
+<p>~ KennyD</p>
+
+      
+      <div class="related">
+</div>
+      
+    </div>
+    
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container has-text-centered">
+    <p></p>
+    
+      <p>Powered by <a href="https://gohugo.io/">Hugo</a> &amp; <a href="https://github.com/ribice/kiss">Kiss</a>.</p>
+    
+  </div>
+</section>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-69931864-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+</body>
+</html>
+

@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Unker KennyD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Feb 2020 20:29:41 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 09 Mar 2020 22:51:00 +0800</lastBuildDate>
     
 	<atom:link href="https://www.uncle.la/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Backblaze Backup Mac</title>
+      <link>https://www.uncle.la/posts/backblaze-backup-mac/</link>
+      <pubDate>Mon, 09 Mar 2020 22:51:00 +0800</pubDate>
+      
+      <guid>https://www.uncle.la/posts/backblaze-backup-mac/</guid>
+      <description>How often do we think about backing up our data? Our laptop seems to run fine and mobile phones rarely die on us. However, the moment it crashes, we start to panic and wished that:
+ We did a backup We did a backup We did a backup The backup is working  My trusty ol&amp;rsquo; MacBook Pro has served me well since late 2013 and I get complacent when it comes to making sure that all my data are regularly backed up.</description>
+    </item>
     
     <item>
       <title>Registering a Drone in Singapore</title>
