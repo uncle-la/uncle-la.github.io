@@ -89,7 +89,7 @@ The mysterious red light This is the time to RTFM&hellip;.'>
 <p>I left the drone batteries charging while heading out for an errand but a quick test at night indicated they are not charged.. (scratches head and go to bed)</p>
 <h3 id="the-mysterious-red-light">The mysterious red light</h3>
 <p>This is the time to RTFM&hellip;. Red light on the battery charging hub basically indicated either a battery or hub issue.. hmm.. ok at least I have a clue that something is having an error but what next?</p>
-<p><img src="/img/dji-spark-battery-issue/dji-spark-microusb-charge.jpg" alt="dji-spark-microusb-charge"></p>
+<p><img src="img/dji-spark-battery-issue/dji-spark-microusb-charge.jpg" alt="dji-spark-microusb-charge"></p>
 <p>Ok.. Maybe attempting to charge the battery while it is attached to the drone would work.</p>
 <p>EH?! 1st green light, 2nd green light, loop. Doesn't look right.. Never mind let's leave it to charge for a couple of hours while I go out for lunch gathering.</p>
 <p>Mehhhh :S. Still not working?! Something must be really weird. <em>start thinking out of the box</em></p>
@@ -97,19 +97,19 @@ The mysterious red light This is the time to RTFM&hellip;.'>
 <blockquote>
 <p>Maybe the battery was overly-discharged and the hub is refusing to charge it.. How about we power up the drone using the DC power supply, wire up the battery data communications pins and see what the drone says?</p>
 </blockquote>
-<p><img src="/img/dji-spark-battery-issue/dji-spark-jumper.jpg" alt="dji-spark-jumper"></p>
+<p><img src="img/dji-spark-battery-issue/dji-spark-jumper.jpg" alt="dji-spark-jumper"></p>
 <p>HOORAY! Drone boots up but battery is not charging hmmm&hellip;.</p>
-<p><img src="/img/dji-spark-battery-issue/dji-spark-jumper-closeup.jpg" alt="dji-spark-jumper-closeup"></p>
+<p><img src="img/dji-spark-battery-issue/dji-spark-jumper-closeup.jpg" alt="dji-spark-jumper-closeup"></p>
 <p>Yes.. I did a lot of please don't try this at home stuff but.. that's what I do all the time hacking my equipment, lol.</p>
 <p>So the DJI Go mobile app is complaining that battery is not found. ┬┬ノ( º _ ºノ)</p>
 <p>Fine.. There are 2 batteries right? Time to sacrifice one to figure out what's the heck is going on. <em>googles battery teardown</em></p>
-<p><img src="/img/dji-spark-battery-issue/battery-opened.jpg" alt="battery-opened"></p>
+<p><img src="img/dji-spark-battery-issue/battery-opened.jpg" alt="battery-opened"></p>
 <p>Ripping the casing apart with the trusty ol&rsquo; iFixit kit. DJI kind of made it water tight and the only way to open is to break some plastic at the edge.</p>
-<p><img src="/img/dji-spark-battery-issue/battery-charger-rubberband.jpg" alt="battery-charger-rubberband"></p>
+<p><img src="img/dji-spark-battery-issue/battery-charger-rubberband.jpg" alt="battery-charger-rubberband"></p>
 <p>Speaking of hacks&hellip; Rubberband works super well to temporarily hold charging cables</p>
-<p><img src="/img/dji-spark-battery-issue/battery-charger-level.jpg" alt="battery-charger-level"></p>
+<p><img src="img/dji-spark-battery-issue/battery-charger-level.jpg" alt="battery-charger-level"></p>
 <p>The charger is saying that batteries are <em>actually</em> charged and now I am getting very suspicious on what is really the issue. Inserting the charged battery into the drone still did not power it on. Super perplexed.</p>
-<p><img src="/img/dji-spark-battery-issue/arduino-smb-log.png" alt="arduino-smb-log"></p>
+<p><img src="img/dji-spark-battery-issue/arduino-smb-log.png" alt="arduino-smb-log"></p>
 <p>I even connected the battery data communication port to an Arduino to read data using the SMB protocol but it is not all that useful/cryptic with the use of wrong register values probably.</p>
 <p>After hacking for 6 hours straight without a conclusion, going to bed was the only sensible thing to do.</p>
 <p>Searching online the next morning, I found <a href="https://www.theregister.co.uk/2017/08/22/dji_spark_brick_threat_1_sep_firmware_update/">this article</a> that in particular states:</p>
