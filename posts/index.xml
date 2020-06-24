@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Unker KennyD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Mar 2020 21:51:11 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jun 2020 19:36:11 +0800</lastBuildDate>
     
 	<atom:link href="https://www.uncle.la/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Can Telegram Be a Tracker?</title>
+      <link>https://www.uncle.la/posts/can-telegram-be-a-tracker/</link>
+      <pubDate>Wed, 24 Jun 2020 19:36:11 +0800</pubDate>
+      
+      <guid>https://www.uncle.la/posts/can-telegram-be-a-tracker/</guid>
+      <description>I have always wanted to build something, just for the fun of it, but more importantly, learn a new thing or two along the way. One idea is a platform that makes it easy for me to record my daily activities (essentially data, the new gold!) and visualize them. People often ask me about, why reinvent the wheel when there are already existing solutions? Personally, I feel &amp;ldquo;robbed&amp;rdquo; by learning opportunities and gaining of new knowledge, when the commercial need to deliver in the shortest time possible, gets us into a mindset where we become off the shelf solution seekers.</description>
+    </item>
     
     <item>
       <title>Active Sitting Chair</title>
