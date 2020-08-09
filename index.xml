@@ -6,10 +6,20 @@
     <description>Recent content on Unker KennyD</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jun 2020 19:36:11 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 09 Aug 2020 15:41:53 +0800</lastBuildDate>
     
 	<atom:link href="https://www.uncle.la/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How I Built a $119 Standing Desk</title>
+      <link>https://www.uncle.la/posts/how-i-built-a-119-standing-desk/</link>
+      <pubDate>Sun, 09 Aug 2020 15:41:53 +0800</pubDate>
+      
+      <guid>https://www.uncle.la/posts/how-i-built-a-119-standing-desk/</guid>
+      <description>Recently, I have been thinking about getting a Standing Desk as part of Work From Home (WFH) setup (Just an excuse to buy one lol). The first step was using an Active sitting chair to reduce slouching while seated.
+A quick Google for Standing desk gives us an idea of the cost, ranging between $300 to $1000 that translates into an add-on, a hand crank height adjustment or fully motorized table.</description>
+    </item>
     
     <item>
       <title>Can Telegram Be a Tracker?</title>
