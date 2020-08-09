@@ -1,26 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Unker KennyD</title>
     <link>https://www.uncle.la/</link>
     <description>Recent content on Unker KennyD</description>
-    <generator>Hugo - gohugo.io</generator>
-    <language>en</language>
-    <contact></contact>
-    <copyright></copyright>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jun 2020 19:36:11 +0800</lastBuildDate>
     
-        <atom:link href="https://www.uncle.la/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.uncle.la/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Posts</title>
-      <link>https://www.uncle.la/posts/</link>
+      <title>Can Telegram Be a Tracker?</title>
+      <link>https://www.uncle.la/posts/can-telegram-be-a-tracker/</link>
       <pubDate>Wed, 24 Jun 2020 19:36:11 +0800</pubDate>
-      <author>kennethlimcp</author>
-      <guid>https://www.uncle.la/posts/</guid>
+      
+      <guid>https://www.uncle.la/posts/can-telegram-be-a-tracker/</guid>
+      <description>I have always wanted to build something, just for the fun of it, but more importantly, learn a new thing or two along the way. One idea is a platform that makes it easy for me to record my daily activities (essentially data, the new gold!) and visualize them. People often ask me about, why reinvent the wheel when there are already existing solutions? Personally, I feel &amp;ldquo;robbed&amp;rdquo; by learning opportunities and gaining of new knowledge, when the commercial need to deliver in the shortest time possible, gets us into a mindset where we become off the shelf solution seekers.</description>
+    </item>
+    
+    <item>
+      <title>Active Sitting Chair</title>
+      <link>https://www.uncle.la/posts/active-sitting-chair/</link>
+      <pubDate>Sun, 15 Mar 2020 21:51:11 +0800</pubDate>
+      
+      <guid>https://www.uncle.la/posts/active-sitting-chair/</guid>
+      <description>I have always wanted to explore how my room can be enhanced and made conducive for getting stuff done. One observation was that the reclinable chair often me made too comfortable and resulted in more content reading/scrolling than focusing on side projects or tasks.
+My colleague in office uses a back-rest-less stool which I found interesting and he always maintained a good sitting posture despite long hours at the desk.</description>
+    </item>
+    
+    <item>
+      <title>Backblaze Backup Mac</title>
+      <link>https://www.uncle.la/posts/backblaze-backup-mac/</link>
+      <pubDate>Mon, 09 Mar 2020 22:51:00 +0800</pubDate>
+      
+      <guid>https://www.uncle.la/posts/backblaze-backup-mac/</guid>
+      <description>How often do we think about backing up our data? Our laptop seems to run fine and mobile phones rarely die on us. However, the moment it crashes, we start to panic and wished that:
+ We did a backup We did a backup We did a backup The backup is working  My trusty ol&amp;rsquo; MacBook Pro has served me well since late 2013 and I get complacent when it comes to making sure that all my data are regularly backed up.</description>
+    </item>
+    
+    <item>
+      <title>Registering a Drone in Singapore</title>
+      <link>https://www.uncle.la/posts/registering-drone/</link>
+      <pubDate>Tue, 11 Feb 2020 20:29:41 +0800</pubDate>
+      
+      <guid>https://www.uncle.la/posts/registering-drone/</guid>
+      <description>In Singapore, the regulations requires a drone user to register the unmanned aircraft (UA) when its total weight is above 250g.
+After purchasing a registration label at SingPost online, the next step is to register the UA at CAAS UA Registration. Be sure to stick the label on your UA before registering as a photo will be required.
+There are some other guidelines mentioned on the website so do have a read!</description>
+    </item>
+    
+    <item>
+      <title>Mysterious DJI Spark issue</title>
+      <link>https://www.uncle.la/posts/dji-spark-battery-issue/</link>
+      <pubDate>Mon, 10 Feb 2020 12:57:47 +0800</pubDate>
+      
+      <guid>https://www.uncle.la/posts/dji-spark-battery-issue/</guid>
+      <description>Few week ago, my brother-in-law passed me a DJI Spark to play. The unit has not been used for 2 over years so the natural thing to do is to charge all the batteries up before exploring further.
+I left the drone batteries charging while heading out for an errand but a quick test at night indicated they are not charged.. (scratches head and go to bed)
+The mysterious red light This is the time to RTFM&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>Willingness to help</title>
+      <link>https://www.uncle.la/posts/willingness-to-help/</link>
+      <pubDate>Sun, 19 Jan 2020 20:50:45 +0800</pubDate>
+      
+      <guid>https://www.uncle.la/posts/willingness-to-help/</guid>
+      <description>I &amp;ldquo;bumped&amp;rdquo; into my primary school CCA mate yesterday while volunteering for an event and the recollection of times spent working on a robotics competition made me realized one thing&amp;hellip;
+How long has it been since I said No to helping someone? Ok.. maybe what I really had in mind was, How long have I been having the willingness to lend a helping hand? For most of us, the idea of long is probably in terms of months or years.</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://www.uncle.la/posts/hello-world/</link>
+      <pubDate>Thu, 02 Jan 2020 22:24:48 +0800</pubDate>
+      
+      <guid>https://www.uncle.la/posts/hello-world/</guid>
       <description></description>
-      
-      <content></content>
-      
     </item>
     
   </channel>
